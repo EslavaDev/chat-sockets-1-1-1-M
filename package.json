@@ -1,0 +1,37 @@
+{
+  "name": "sockets-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "9.9.0"
+  },
+  "scripts": {
+    "dev": "nodemon server/index.js -e js,hbs,html,css",
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "install-peerdeps": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EslavaDev/sockets-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EslavaDev/sockets-chat/issues"
+  },
+  "homepage": "https://github.com/EslavaDev/sockets-chat#readme",
+  "description": ""
+}
